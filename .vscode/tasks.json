@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Crypto++ Project (MSYS2 Real)",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-I",
+        "C:/msys64/ucrt64/include",
+        "-I",
+        "C:/msys64/ucrt64/include/cryptopp",
+        "-L",
+        "C:/msys64/ucrt64/lib",
+        "${workspaceFolder}/src/main.cpp",
+        "-lcryptopp",
+        "-o",
+        "${workspaceFolder}/bin/cryptoproj.exe"
+      ],
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Builds using real MSYS2-installed Crypto++"
+    }
+  ]
+}
