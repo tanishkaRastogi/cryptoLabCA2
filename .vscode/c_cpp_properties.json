@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "MSYS2-UCRT64",
+      "includePath": [
+        "C:/msys64/ucrt64/include",
+        "C:/msys64/ucrt64/include/cryptopp"
+      ],
+      "defines": [],
+      "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
+}
